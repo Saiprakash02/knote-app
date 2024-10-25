@@ -31,5 +31,5 @@ spec:
             - containerPort: 3000
           env:
             - name: MONGO_URL
-              value: mongodb://mongo:27017/dev
+              value: mongodb+srv://saiprakash:apple123@cluster0.ytzws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
           imagePullPolicy: Always
